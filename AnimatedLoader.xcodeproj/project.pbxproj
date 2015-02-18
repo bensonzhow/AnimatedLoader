@@ -12,18 +12,8 @@
 		4892EF481A94010400BF8490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4892EF461A94010400BF8490 /* Main.storyboard */; };
 		4892EF4A1A94010400BF8490 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4892EF491A94010400BF8490 /* Images.xcassets */; };
 		4892EF4D1A94010400BF8490 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4892EF4B1A94010400BF8490 /* LaunchScreen.xib */; };
-		4892EF591A94010400BF8490 /* AnimatedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892EF581A94010400BF8490 /* AnimatedLoaderTests.swift */; };
+		4892EF631A940B4700BF8490 /* bluemarblewest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4892EF621A940B4700BF8490 /* bluemarblewest.jpg */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4892EF531A94010400BF8490 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4892EF351A94010400BF8490 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4892EF3C1A94010400BF8490;
-			remoteInfo = AnimatedLoader;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4892EF3D1A94010400BF8490 /* AnimatedLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,20 +23,11 @@
 		4892EF471A94010400BF8490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4892EF491A94010400BF8490 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4892EF4C1A94010400BF8490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4892EF521A94010400BF8490 /* AnimatedLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4892EF571A94010400BF8490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4892EF581A94010400BF8490 /* AnimatedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedLoaderTests.swift; sourceTree = "<group>"; };
+		4892EF621A940B4700BF8490 /* bluemarblewest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bluemarblewest.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4892EF3A1A94010400BF8490 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4892EF4F1A94010400BF8490 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				4892EF3F1A94010400BF8490 /* AnimatedLoader */,
-				4892EF551A94010400BF8490 /* AnimatedLoaderTests */,
 				4892EF3E1A94010400BF8490 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				4892EF3D1A94010400BF8490 /* AnimatedLoader.app */,
-				4892EF521A94010400BF8490 /* AnimatedLoaderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +58,7 @@
 			children = (
 				4892EF421A94010400BF8490 /* AppDelegate.swift */,
 				4892EF441A94010400BF8490 /* ViewController.swift */,
+				4892EF621A940B4700BF8490 /* bluemarblewest.jpg */,
 				4892EF461A94010400BF8490 /* Main.storyboard */,
 				4892EF491A94010400BF8490 /* Images.xcassets */,
 				4892EF4B1A94010400BF8490 /* LaunchScreen.xib */,
@@ -91,23 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				4892EF411A94010400BF8490 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4892EF551A94010400BF8490 /* AnimatedLoaderTests */ = {
-			isa = PBXGroup;
-			children = (
-				4892EF581A94010400BF8490 /* AnimatedLoaderTests.swift */,
-				4892EF561A94010400BF8490 /* Supporting Files */,
-			);
-			path = AnimatedLoaderTests;
-			sourceTree = "<group>";
-		};
-		4892EF561A94010400BF8490 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4892EF571A94010400BF8490 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,24 +95,6 @@
 			productReference = 4892EF3D1A94010400BF8490 /* AnimatedLoader.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4892EF511A94010400BF8490 /* AnimatedLoaderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4892EF5F1A94010400BF8490 /* Build configuration list for PBXNativeTarget "AnimatedLoaderTests" */;
-			buildPhases = (
-				4892EF4E1A94010400BF8490 /* Sources */,
-				4892EF4F1A94010400BF8490 /* Frameworks */,
-				4892EF501A94010400BF8490 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4892EF541A94010400BF8490 /* PBXTargetDependency */,
-			);
-			name = AnimatedLoaderTests;
-			productName = AnimatedLoaderTests;
-			productReference = 4892EF521A94010400BF8490 /* AnimatedLoaderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +106,6 @@
 				TargetAttributes = {
 					4892EF3C1A94010400BF8490 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					4892EF511A94010400BF8490 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 4892EF3C1A94010400BF8490;
 					};
 				};
 			};
@@ -182,7 +123,6 @@
 			projectRoot = "";
 			targets = (
 				4892EF3C1A94010400BF8490 /* AnimatedLoader */,
-				4892EF511A94010400BF8490 /* AnimatedLoaderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -195,13 +135,7 @@
 				4892EF481A94010400BF8490 /* Main.storyboard in Resources */,
 				4892EF4D1A94010400BF8490 /* LaunchScreen.xib in Resources */,
 				4892EF4A1A94010400BF8490 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4892EF501A94010400BF8490 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4892EF631A940B4700BF8490 /* bluemarblewest.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,23 +151,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4892EF4E1A94010400BF8490 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4892EF591A94010400BF8490 /* AnimatedLoaderTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4892EF541A94010400BF8490 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4892EF3C1A94010400BF8490 /* AnimatedLoader */;
-			targetProxy = 4892EF531A94010400BF8490 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4892EF461A94010400BF8490 /* Main.storyboard */ = {
@@ -352,40 +270,6 @@
 			};
 			name = Release;
 		};
-		4892EF601A94010400BF8490 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AnimatedLoaderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedLoader.app/AnimatedLoader";
-			};
-			name = Debug;
-		};
-		4892EF611A94010400BF8490 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AnimatedLoaderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimatedLoader.app/AnimatedLoader";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -403,14 +287,6 @@
 			buildConfigurations = (
 				4892EF5D1A94010400BF8490 /* Debug */,
 				4892EF5E1A94010400BF8490 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		4892EF5F1A94010400BF8490 /* Build configuration list for PBXNativeTarget "AnimatedLoaderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4892EF601A94010400BF8490 /* Debug */,
-				4892EF611A94010400BF8490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
